@@ -1,0 +1,9 @@
+C:\Users\Lera\AppData\Local\Temporary Projects\Fuzzy_Sets_Library\bin\Release\Fuzzy_Sets_Library.dll
+C:\Users\Lera\AppData\Local\Temporary Projects\Fuzzy_Sets_Library\bin\Release\Fuzzy_Sets_Library.pdb
+C:\Users\Lera\AppData\Local\Temporary Projects\Fuzzy_Sets_Library\obj\Release\Fuzzy_Sets_Library.dll
+C:\Users\Lera\AppData\Local\Temporary Projects\Fuzzy_Sets_Library\obj\Release\Fuzzy_Sets_Library.pdb
+C:\Users\Lera\documents\visual studio 2010\Projects\Fuzzy_Sets_Library\Fuzzy_Sets_Library\bin\Release\Fuzzy_Sets_Library.dll
+C:\Users\Lera\documents\visual studio 2010\Projects\Fuzzy_Sets_Library\Fuzzy_Sets_Library\bin\Release\Fuzzy_Sets_Library.pdb
+C:\Users\Lera\documents\visual studio 2010\Projects\Fuzzy_Sets_Library\Fuzzy_Sets_Library\obj\Release\Fuzzy_Sets_Library.dll
+C:\Users\Lera\documents\visual studio 2010\Projects\Fuzzy_Sets_Library\Fuzzy_Sets_Library\obj\Release\Fuzzy_Sets_Library.pdb
+C:\Users\Lera\documents\visual studio 2010\Projects\Fuzzy_Sets_Library\Fuzzy_Sets_Library\obj\Release\Fuzzy_Sets_Library.csprojResolveAssemblyReference.cache

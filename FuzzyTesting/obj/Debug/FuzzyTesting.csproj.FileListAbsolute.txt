@@ -1,0 +1,9 @@
+C:\Users\alexg\Documents\Visual Studio 2015\Projects\Fuzzy_Sets_Library\FuzzyTesting\bin\Debug\FuzzyTesting.dll
+C:\Users\alexg\Documents\Visual Studio 2015\Projects\Fuzzy_Sets_Library\FuzzyTesting\bin\Debug\FuzzyTesting.pdb
+C:\Users\alexg\Documents\Visual Studio 2015\Projects\Fuzzy_Sets_Library\FuzzyTesting\bin\Debug\Fuzzy_Sets_Library.dll
+C:\Users\alexg\Documents\Visual Studio 2015\Projects\Fuzzy_Sets_Library\FuzzyTesting\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\alexg\Documents\Visual Studio 2015\Projects\Fuzzy_Sets_Library\FuzzyTesting\bin\Debug\Fuzzy_Sets_Library.pdb
+C:\Users\alexg\Documents\Visual Studio 2015\Projects\Fuzzy_Sets_Library\FuzzyTesting\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\alexg\Documents\Visual Studio 2015\Projects\Fuzzy_Sets_Library\FuzzyTesting\obj\Debug\FuzzyTesting.csprojResolveAssemblyReference.cache
+C:\Users\alexg\Documents\Visual Studio 2015\Projects\Fuzzy_Sets_Library\FuzzyTesting\obj\Debug\FuzzyTesting.dll
+C:\Users\alexg\Documents\Visual Studio 2015\Projects\Fuzzy_Sets_Library\FuzzyTesting\obj\Debug\FuzzyTesting.pdb

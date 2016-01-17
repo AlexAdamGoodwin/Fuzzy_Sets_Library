@@ -7,3 +7,9 @@ C:\Users\alexg\Documents\Visual Studio 2015\Projects\Fuzzy_Sets_Library\Fuzzy_Se
 C:\Users\alexg\Documents\Visual Studio 2015\Projects\Fuzzy_Sets_Library\Fuzzy_Sets_Library\bin\Debug\Fuzzy_Sets_Library.pdb
 C:\Users\alexg\Documents\Visual Studio 2015\Projects\Fuzzy_Sets_Library\Fuzzy_Sets_Library\obj\Debug\Fuzzy_Sets_Library.dll
 C:\Users\alexg\Documents\Visual Studio 2015\Projects\Fuzzy_Sets_Library\Fuzzy_Sets_Library\obj\Debug\Fuzzy_Sets_Library.pdb
+C:\Users\alexg\Documents\Visual Studio 2015\Projects\Fuzzy_Sets_Library\Fuzzy_Sets_Library\obj\Debug\Fuzzy_Sets_Library.csprojResolveAssemblyReference.cache
+C:\Users\Lera\Documents\Visual Studio 2013\Projects\Fuzzy_Sets_Library\Fuzzy_Sets_Library\bin\Debug\Fuzzy_Sets_Library.dll
+C:\Users\Lera\Documents\Visual Studio 2013\Projects\Fuzzy_Sets_Library\Fuzzy_Sets_Library\bin\Debug\Fuzzy_Sets_Library.pdb
+C:\Users\Lera\Documents\Visual Studio 2013\Projects\Fuzzy_Sets_Library\Fuzzy_Sets_Library\obj\Debug\Fuzzy_Sets_Library.csprojResolveAssemblyReference.cache
+C:\Users\Lera\Documents\Visual Studio 2013\Projects\Fuzzy_Sets_Library\Fuzzy_Sets_Library\obj\Debug\Fuzzy_Sets_Library.dll
+C:\Users\Lera\Documents\Visual Studio 2013\Projects\Fuzzy_Sets_Library\Fuzzy_Sets_Library\obj\Debug\Fuzzy_Sets_Library.pdb

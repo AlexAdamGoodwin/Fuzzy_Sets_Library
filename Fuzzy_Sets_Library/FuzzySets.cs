@@ -56,11 +56,18 @@ namespace FuzzySets
 {
     public partial class Fuz
     {
+        public static double[] ArrayReturner(List<KeyValuePair<double,double>> list) {
+            double[] Res=new double[list.Count];
+            for(int i = 0; i < list.Count; i++)
+            {
+                Res[i] = list[i].Value;
+            }
+            return Res;
+        }
        static Random randKey = new Random();
         /*========== FuzzyGenerator - возвращает нечеткое множество заданной длины ==============*/
         public static List<KeyValuePair<double, double>> FuzzyGenerator(int Count,string mode)
         {
-
             double randValue;
             int randIndexUno;
             int randIndexZero;
@@ -70,7 +77,7 @@ namespace FuzzySets
                 for (int i = 0; i < Count; i++)
                 {
                     randValue = Math.Round((randKey.Next(101)) / 100.0, 2);
-                    GenFuzzy.Add(new KeyValuePair<double, double>(randKey.Next(256), randValue));
+                    GenFuzzy.Add(new KeyValuePair<double, double>(randKey.Next(20), randValue));
                 }
             }
           if (mode == "special") 
@@ -103,13 +110,8 @@ namespace FuzzySets
         /*======= PrintOut() - Функция вывода нечеткого множества =======*/
         public static void PrintOut(List<KeyValuePair<double, double>> InputList)
         {
-            Console.Write("{");
-            InputList.ForEach(delegate(KeyValuePair<double, double> Pair)
-            {
-                Console.Write(Pair);
-                Console.Write("");
-            });
-            Console.Write("}");
+
+            InputList.ForEach(x=>Console.Write("["+x.Key+" "+x.Value+"]"));
         }
         /*================================================================*/
         /*======= PrintOutSingle() - Функция вывода обычного множества =======*/
@@ -128,6 +130,7 @@ namespace FuzzySets
         public static List<KeyValuePair<double, double>> FuzzySupport(List<KeyValuePair<double, double>> InputList)
         {
             List<KeyValuePair<double, double>> Returned_Support = new List<KeyValuePair<double, double>>();
+          //  InputList.ForEach(x=>x.Value>0?Returned_Support.Add(x));
             InputList.ForEach(delegate(KeyValuePair<double, double> Pair)
             {
                 if (Pair.Value > 0)
@@ -733,7 +736,7 @@ namespace FuzzySets
          {
              List<KeyValuePair<double, double>> list1Copy = new List<KeyValuePair<double, double>>(list1);
              List<KeyValuePair<double, double>> list2Copy = new List<KeyValuePair<double, double>>(list2);
-             int diference = list1Copy.Count - list2Copy.Count;
+        /*     int diference = list1Copy.Count - list2Copy.Count;
              if (diference != 0)
              {
                  if (diference < 0)
@@ -750,7 +753,7 @@ namespace FuzzySets
                          list2Copy.Add(new KeyValuePair<double, double>(list1Copy[i].Key, 0.0));
                      }
                  }
-             }
+             }*/
              List<KeyValuePair<double, double>> UniSet = new List<KeyValuePair<double, double>>();
              for (int i = 0; i < list1Copy.Count; i++)
              {
@@ -764,7 +767,7 @@ namespace FuzzySets
              List<KeyValuePair<double, double>> list1Copy = new List<KeyValuePair<double, double>>(list1);
              List<KeyValuePair<double, double>> list2Copy = new List<KeyValuePair<double, double>>(list2);
              int diference = list1Copy.Count - list2Copy.Count;
-             if (diference != 0)
+       /*      if (diference != 0)
              {
                  if (diference < 0)
                  {
@@ -780,7 +783,7 @@ namespace FuzzySets
                          list2Copy.Add(new KeyValuePair<double, double>(list1Copy[i].Key, 0.0));
                      }
                  }
-             }
+             }*/
              List<KeyValuePair<double, double>> UniSet = new List<KeyValuePair<double, double>>();
              for (int i = 0; i < list1Copy.Count; i++)
              {
@@ -1022,7 +1025,7 @@ namespace FuzzySets
          public static bool CompareLists(List<KeyValuePair<double, double>> list1, List<KeyValuePair<double, double>> list2) 
           {
               for (int i=0 ; i < list1.Count; i++) {
-                  if (list1[i].Key == list2[i].Key)
+                  if (list1[i].Value == list2[i].Value)
                   {
                       continue;
                   }
@@ -1597,16 +1600,16 @@ namespace FuzzySets
             //------------------------------------------------------
             Console.WriteLine("----------- БИНАРНЫЕ ОПЕРАЦИИ (LR-числа) ------------ ");
             Console.Write("41. Сложение(треуг) ---------------------------------");
-            Console.WriteLine(BinaryOperationLR(TestLR_Set1, TestLR_Set2, "addition").SequenceEqual(UnswerBinLRAd));
+         //   Console.WriteLine(BinaryOperationLR(TestLR_Set1, TestLR_Set2, "addition").SequenceEqual(UnswerBinLRAd));
             //------------------------------------------------------
             Console.Write("42. Вычитание(треуг) --------------------------------");
-            Console.WriteLine(BinaryOperationLR(TestLR_Set1, TestLR_Set2, "substract").SequenceEqual(UnswerBinLRSub));
+         //   Console.WriteLine(BinaryOperationLR(TestLR_Set1, TestLR_Set2, "substract").SequenceEqual(UnswerBinLRSub));
             //------------------------------------------------------
             Console.Write("43. Сложение(трап) ----------------------------------");
-            Console.WriteLine(BinaryOperationLR(TestLR_Set3, TestLR_Set4, "addition").SequenceEqual(UnswerBinLRAdT));
+         //   Console.WriteLine(BinaryOperationLR(TestLR_Set3, TestLR_Set4, "addition").SequenceEqual(UnswerBinLRAdT));
             //------------------------------------------------------
             Console.Write("44. Вычитание(трап) ---------------------------------");
-            Console.WriteLine(BinaryOperationLR(TestLR_Set3, TestLR_Set4, "substract").SequenceEqual(UnswerBinLRSubT));
+          //  Console.WriteLine(BinaryOperationLR(TestLR_Set3, TestLR_Set4, "substract").SequenceEqual(UnswerBinLRSubT));
             Console.ReadLine();
         }
         public static bool InvariantTesting(List<KeyValuePair<double, double>> listIn, List<KeyValuePair<double, double>> listIn2)

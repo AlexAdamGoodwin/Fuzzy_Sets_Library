@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FuzzyBinaryRelation.cs" />
     <Compile Include="FuzzySets.cs" />
     <Compile Include="FuzzySetsNext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

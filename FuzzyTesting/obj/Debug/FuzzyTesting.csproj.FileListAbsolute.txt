@@ -7,3 +7,10 @@ C:\Users\alexg\Documents\Visual Studio 2015\Projects\Fuzzy_Sets_Library\FuzzyTes
 C:\Users\alexg\Documents\Visual Studio 2015\Projects\Fuzzy_Sets_Library\FuzzyTesting\obj\Debug\FuzzyTesting.csprojResolveAssemblyReference.cache
 C:\Users\alexg\Documents\Visual Studio 2015\Projects\Fuzzy_Sets_Library\FuzzyTesting\obj\Debug\FuzzyTesting.dll
 C:\Users\alexg\Documents\Visual Studio 2015\Projects\Fuzzy_Sets_Library\FuzzyTesting\obj\Debug\FuzzyTesting.pdb
+C:\Users\Lera\Documents\Visual Studio 2013\Projects\Fuzzy_Sets_Library\FuzzyTesting\bin\Debug\FuzzyTesting.dll
+C:\Users\Lera\Documents\Visual Studio 2013\Projects\Fuzzy_Sets_Library\FuzzyTesting\bin\Debug\FuzzyTesting.pdb
+C:\Users\Lera\Documents\Visual Studio 2013\Projects\Fuzzy_Sets_Library\FuzzyTesting\bin\Debug\Fuzzy_Sets_Library.dll
+C:\Users\Lera\Documents\Visual Studio 2013\Projects\Fuzzy_Sets_Library\FuzzyTesting\bin\Debug\Fuzzy_Sets_Library.pdb
+C:\Users\Lera\Documents\Visual Studio 2013\Projects\Fuzzy_Sets_Library\FuzzyTesting\obj\Debug\FuzzyTesting.csprojResolveAssemblyReference.cache
+C:\Users\Lera\Documents\Visual Studio 2013\Projects\Fuzzy_Sets_Library\FuzzyTesting\obj\Debug\FuzzyTesting.dll
+C:\Users\Lera\Documents\Visual Studio 2013\Projects\Fuzzy_Sets_Library\FuzzyTesting\obj\Debug\FuzzyTesting.pdb
